@@ -1,15 +1,23 @@
 ---
 title: Le Wagon - Middleman
 ---
-
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<!-- banner -->
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+  <div class="banner-content">
+    <h1>Le Wagon Welc(H)ome</h1>
+    <p>Learn to code with us</p>
+    <a class="btn btn-primary btn-lg">Start now</a>
   </div>
 </div>
+
+
+<!-- cards -->
+<h2>Where can you find us?</h2>
+<ul class="list-inline">
+  <% %w(berlin shanghai paris tokyo rio).each do |city| %>
+    <li>
+      <img src="https://kitt.lewagon.com/placeholder/cities/<%= city %>" class="img-rounded" height="100px" >
+      <p><%= city.capitalize %></p>
+    </li>
+  <% end %>
+</ul>

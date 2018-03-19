@@ -1,11 +1,13 @@
 - name: 'Sébastien Saunier'
   github_nickname: 'ssaunier'
-- name: 'Boris Paillard'
-  github_nickname: 'Papillard'
+
 
 - name: 'Benoît Mathonat'
   github_nickname: 'benoitbenben'
 
 - name: 'Anatole Gonon'
   github_nickname: 'elotan'
-
+- name: 'Rose Lutz'
+  github_nickname: 'RoseWagon6'
+- name: 'Boris Paillard'
+  github_nickname: 'Papillard'
